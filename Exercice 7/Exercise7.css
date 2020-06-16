@@ -1,0 +1,17 @@
+
+    @keyframes Exercise7{ 
+      0%   {background-color:rgb(226, 121, 210); left:0px; top:0px;}
+      25%  {background-color:yellow; left:0px; top:100px;}
+      50%  {background-color:blue; left:100px; top:100px;}
+      75%  {background-color:green; left:100px; top:0px;}
+      100% {background-color:rgb(226, 121, 210); left:0px; top:0px;}
+    }
+    
+    /* The element to apply the animation to */
+    div {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: rgb(226, 121, 210);
+      animation-name: Exercise7;
+      animation-duration: 8s;
